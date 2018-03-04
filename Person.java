@@ -1,9 +1,8 @@
-
 /**
  * Write a description of class Person here.
  *
- * @author (your name)
- * @version (a version number or a date)
+ * @author Simon Heinen
+ * @version 03.03.2018
  */
 public class Person{
     private String name;
@@ -30,23 +29,23 @@ public class Person{
     
     //Sondierende Methoden - @Getter
     
-    public String gibName(){
+    private String gibName(){
         return name;
     }
     
-    public int gibGroesse(){
+    private int gibGroesse(){
         return groesse;
     }
     
-    public double gibGewicht(){
+    private double gibGewicht(){
         return gewicht;
     }
     
-    public boolean gibRaucher(){
+    private boolean gibRaucher(){
         return raucher;
     }
     
-    public Versicherung gibVersicherung(){
+    private Versicherung gibVersicherung(){
         return versicherung;
     }
     
@@ -84,7 +83,7 @@ public class Person{
     
     public boolean bekommtBonus(){
         boolean bonus;
-        if(berechneBMI() > 18.5 && berechneBMI() < 25.0){
+        if(berechneBMI() > 18.5 && berechneBMI() < 25.0 && !raucher){
             bonus = true;
         }else{
             bonus = false;
