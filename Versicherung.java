@@ -1,8 +1,8 @@
 /**
- * Write a description of class Versicherung here.
  *
  * @author Simon Heinen
  * @version 03.03.2018
+ * 
  */
 public class Versicherung{
     private String name;
