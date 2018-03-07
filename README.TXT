@@ -1,4 +1,4 @@
-#SkillTraining
+# SkillTraining
 
 PURPOSE OF PROJECT: Training
 VERSION or DATE: 07.03.2018
