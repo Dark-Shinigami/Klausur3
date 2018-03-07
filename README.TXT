@@ -1,4 +1,5 @@
-PROJECT TITLE: Klausur3
+#SkillTraining
+
 PURPOSE OF PROJECT: Training
 VERSION or DATE: 07.03.2018
 HOW TO START THIS PROJECT: BlueJ Project
