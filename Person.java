@@ -1,7 +1,7 @@
 /**
  * 
  * @author Simon Heinen
- * @version 03.03.2018
+ * @version 07.03.2018
  * 
  */
 public class Person{
